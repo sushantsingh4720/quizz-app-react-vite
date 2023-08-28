@@ -1,0 +1,36 @@
+.start {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #150239;
+  form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    input {
+      width: 300px;
+      font-size: 25px;
+      padding: 10px 20px;
+      outline: none;
+
+      &::placeholder {
+        color: black;
+      }
+    }
+    button {
+      width: 100%;
+      font-size: 25px;
+      padding: 10px 20px;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      &:hover {
+        background-color: rgb(11, 93, 113);
+        color: white;
+        border: none;
+      }
+    }
+  }
+}
